@@ -12,7 +12,7 @@ class TestSimonSays < MiniTest::Test
   def test_echo_bye
     assert_equal "bye", echo("bye")
   end
-
+#done
   # calling the method shout and passing in "hello"
   # should return "HELLO"
   def test_shout_hello
@@ -20,13 +20,13 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_shout_multiple_words
-    assert_equal "HELLO WORLD", shoult("hello world")
+    assert_equal "HELLO WORLD", shout("hello world")
   end
 
   def test_repeat
     assert_equal "hello hello", repeat("hello")
   end
-
+#done
   # Wait a second! How can you make the "repeat" method
   # take one *or* two arguments?
   #
